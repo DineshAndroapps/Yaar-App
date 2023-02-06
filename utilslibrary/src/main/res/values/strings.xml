@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">UtilsLibrary</string>
+
+    <!-- 返回操作 -->
+    <string name="back_pressed_message">Exit current operation?</string>
+    <!--权限请求-->
+    <string name="request_camera_permission">Camera permission required</string>
+    <string name="request_storage_permission">Need storage permissions</string>
+    <string name="request_sound_permission">Need recording permission</string>
+
+    <string name="btn_dialog_cancel">cancel</string>
+    <string name="btn_dialog_ok">determine</string>
+    <string name="music_selection">Choose music</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

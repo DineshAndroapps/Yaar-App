@@ -1,0 +1,153 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Info_F"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.yaar.shortvideoapp.Settings.Setting_F">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_color"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/toolbar"
+            >
+
+            <LinearLayout
+                android:id="@+id/draft_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/d_bottom_gray_line"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/record_draft_red"
+                    />
+
+                <TextView
+                    android:id="@+id/draft_count_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/videos"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnr_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/d_bottom_gray_line"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_profile_red"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="15dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/lnr_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/d_bottom_gray_line"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/ic_notification_red"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/message"
+                    android:id="@+id/txtNotifcation"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="15dp"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/lnr_setting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/d_bottom_gray_line"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/settings"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_setting"
+                    android:id="@+id/request_verification_txt"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:padding="15dp"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

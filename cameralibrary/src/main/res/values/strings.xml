@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">CameraLibrary</string>
+
+    <string name="delete_last_video_tips">Delete the last video？</string>
+    <string name="btn_delete">delete</string>
+
+    <!-- 合并提示 -->
+    <string name="combine_video_message">Merging videos...</string>
+
+    <!--顶部设置文字-->
+    <string name="tv_flash">flash</string>
+    <string name="tv_flash_front">Soft light selfie</string>
+    <string name="tv_time_lapse">Time-lapse shooting</string>
+    <string name="tv_luminous_compensation">Night shot fill light</string>
+    <string name="tv_edge_blur">Blurred border</string>
+    <string name="tv_touch_take">Touch screen photo</string>
+    <string name="tv_camera_setting">Camera settings</string>
+    <string name="tv_select_music">Choose music</string>
+    <string name="btn_stickers">Magic</string>
+    <string name="btn_media">Album</string>
+
+    <!-- 滤镜页面按钮 -->
+    <string name="tab_preview_beauty">Beauty</string>
+    <string name="tab_preview_makeup">makeups</string>
+    <string name="tab_preview_filter">Filter</string>
+
+    <!-- 美颜 -->
+    <string-array name="preview_beauty">
+        <item>Microdermabrasion</item>
+        <item>color</item>
+        <item>Face-lift</item>
+        <item>Shaved face</item>
+        <item>Small face</item>
+        <item>chin</item>
+        <item>Law pattern</item>
+        <item>Forehead</item>
+        <item>big eyes</item>
+        <item>Eye distance</item>
+        <item>Corner of eye</item>
+        <item>Lying silkworm</item>
+        <item>Eye bags</item>
+        <item>Dazzling</item>
+        <item>Thin nose</item>
+        <item>Nose</item>
+        <item>proboscis</item>
+        <item>Mouth type</item>
+        <item>Beautiful teeth</item>
+    </string-array>
+
+    <!-- 美妆 -->
+    <string-array name="preview_makeup">
+        <item>Lipstick</item>
+        <item>Blush</item>
+        <item>shadow</item>
+        <item>eyebrow</item>
+        <item>Eye shadow</item>
+        <item>Eyeliner</item>
+        <item>eyelash</item>
+        <item>Double eyelid</item>
+        <item>pupil</item>
+    </string-array>
+
+    <string name="makeup_clear">One key clear</string>
+
+    <string name="tab_picture">Take pictures</string>
+    <string name="tab_video_60s">60 seconds</string>
+    <string name="tab_video_15s">Take 18 seconds</string>
+    <string name="tab_video_picture">Album</string>
+
+    <!-- 录制速度 -->
+    <string-array name="record_speed_texts">
+        <item>Turtle</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Swift</item>
+    </string-array>
+
+    <!-- 特效页面参数 -->
+    <string name="preview_beauty_reset">reset</string>
+
+    <!-- 相机设置页面 -->
+    <string name="select_watermark">Select watermark</string>
+    <string name="show_face_points">Show key points of the face</string>
+    <string name="hide_face_points">Hide key points</string>
+    <string name="show_fps">Display fps</string>
+    <string name="hide_fps">Hide fps</string>
+
+</resources>

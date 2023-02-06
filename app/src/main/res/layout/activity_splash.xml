@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.yaar.shortvideoapp.Splash_A">
+
+
+    <ImageView
+        android:id="@+id/img_rere"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo_big" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_rere"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_marginTop="@dimen/dp5"
+        android:shadowRadius="3"
+        android:text="Made in India"
+        android:textColor="#f50057"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

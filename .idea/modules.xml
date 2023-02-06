@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Yaar.iml" filepath="$PROJECT_DIR$/.idea/modules/Yaar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Yaar.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Yaar.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cameralibrary/Yaar.cameralibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/cameralibrary/Yaar.cameralibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/facedetectlibrary/Yaar.facedetectlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/facedetectlibrary/Yaar.facedetectlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filterlibrary/Yaar.filterlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/filterlibrary/Yaar.filterlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gdxlibrary/Yaar.gdxlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/gdxlibrary/Yaar.gdxlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/landmarklibrary/Yaar.landmarklibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/landmarklibrary/Yaar.landmarklibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/medialibrary/Yaar.medialibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/medialibrary/Yaar.medialibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/pickerlibrary/Yaar.pickerlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/pickerlibrary/Yaar.pickerlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/utilslibrary/Yaar.utilslibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/utilslibrary/Yaar.utilslibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/videolibrary/Yaar.videolibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/videolibrary/Yaar.videolibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/widgetlibrary/Yaar.widgetlibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/widgetlibrary/Yaar.widgetlibrary.iml" />
+    </modules>
+  </component>
+</project>

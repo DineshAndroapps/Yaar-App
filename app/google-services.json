@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "346553264401",
+    "firebase_url": "https://yaar-ba322.firebaseio.com",
+    "project_id": "yaar-ba322",
+    "storage_bucket": "yaar-ba322.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346553264401:android:53670ac0109e921282c4b0",
+        "android_client_info": {
+          "package_name": "com.yaar.shortvideoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346553264401-662bssssfcqdupopocvjqjridvgdvolt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtC72Cb8njLIowz6BkW-9TLImze8i2AXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346553264401-662bssssfcqdupopocvjqjridvgdvolt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

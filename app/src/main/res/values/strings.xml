@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name" translatable="false">Yaar</string>
+
+
+    <!--    <string name="facebook_app_id">2887316144710516</string>-->
+    <!--    <string name="fb_login_protocol_scheme">fb2887316144710516</string>-->
+
+    <string name="facebook_app_id" translatable="false">3263767893720591</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb3263767893720591</string>
+    <string name="ad_app_id" translatable="false">ca-app-pub-8971433118338088~5235470107</string>
+
+
+    <!--    <string name="banner_ad" translatable="false">ca-app-pub-3940256099942544/6300978111</string>  &lt;!&ndash;   Test ads &ndash;&gt;-->
+    <!--    live ads new keys-->
+    <string name="banner_ad" translatable="false">ca-app-pub-8971433118338088/7130989799</string>
+
+
+    <string name="request_verification">Request Verification</string>
+    <string name="apply_for_tic_tic_verification">Apply for Mega Play Verification</string>
+    <string name="upper_body">A verified badge is check that appears next to an \nMega Play accounts name to indicate that the \naccount is the authentic presence of notable \npublic figure , celebrity, global brand or entity it \nrepresents.</string>
+    <string name="upper_body_below">Submitting a request for verification \ndoes not guarantee that your account will be verified</string>
+    <string name="lower_body">We require a Creators who is making videos on Own Idea \nwith lots of attractions if we find it is Usefull for Everyone. \nWe will enable it as Blue tick for their Profile.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="version">1.0</string>
+    <string name="device">android</string>
+    <string name="delete_function_not_available_in_demo">Delete Function not available in demo</string>
+
+    <string name="btn_camera">Filter camera
+</string>
+    <string name="btn_edit_picture">Edit picture
+</string>
+    <string name="btn_edit_video">Edit video
+</string>
+    <string name="btn_speed_record">Double speed recording test
+</string>
+    <string name="btn_edit_music_merge">Add background music
+</string>
+    <string name="btn_ff_media_record">Use FFmpeg to record video
+</string>
+    <string name="btn_music_player">Music player test
+</string>
+    <string name="btn_video_player">Video player test
+</string>
+
+    <string name="app_update_default_title">App Update</string>
+    <string name="app_update_default_description">Looks like you have an older\nversion of the app.\nPlease update to get latest\nfeatures and best experience.</string>
+    <string name="app_update_positive_text">UPDATE NOW</string>
+    <string name="for_you">For You</string>
+    <string name="follow">Follow</string>
+    <string name="likes">likes</string>
+    <string name="comment">comment</string>
+    <string name="duet">Duet</string>
+    <string name="share">Share</string>
+    <string name="sound">Sound</string>
+
+
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="heart">Heart</string>
+    <string name="videos">Videos</string>
+    <string name="add_sound">Add Sound</string>
+    <string name="next">Next</string>
+    <string name="select_video">Select Video</string>
+    <string name="by_signing_up_you_confirm_that_you_agree_to_our_n_terms_of_use">By signing up, you confirm that you agree to our \n Terms of Use</string>
+    <string name="and_have_read_and_understood_n_our_privacy_policys">and have read and understood \n our Privacy Policys.</string>
+    <string name="post">Post</string>
+    <string name="describe_your_video">Describe your video</string>
+    <string name="who_can_view_this_video">Who can view this video</string>
+    <string name="allow_comments">Allow Comments</string>
+    <string name="allow_duet">Allow Duet</string>
+    <string name="public1">public</string>
+    <string name="draft">Draft</string>
+    <string name="post_video">Post Video</string>
+
+    <string name="upload">Upload</string>
+    <string name="enter_the_song_name">Enter the Song Name</string>
+
+    <string name="advance_camera">Advance Camera</string>
+    <string name="save">Save</string>
+    <string name="create">Create</string>
+    <string name="do_you_wants_to_convert_into_rupees">Do you wants to convert into rupees!</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="select_language">Select Language</string>
+    <string name="cancel">CANCEL</string>
+    <string name="redeem_rupees">Redeem rupees</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+    <string name="update_username">Update Username</string>
+    <string name="username">Username</string>
+    <string name="update_profile_name">Update Profile Name</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="update_user_mobile_no">Update User Mobile no</string>
+    <string name="mobile_no">Mobile no</string>
+    <string name="update_gender">Update Gender</string>
+    <string name="male">Male</string>
+    <string name="female">female</string>
+    <string name="update_about_your_self">Update About Your Self</string>
+    <string name="title">Title</string>
+    <string name="inbox">Inbox</string>
+    <string name="notifications">Notifications</string>
+    <string name="whoops">Whoops!</string>
+    <string name="there_is_no_notifications_you_have_so_far">There is no notifications you have so far</string>
+    <string name="edit">Edit</string>
+    <string name="about">About</string>
+    <string name="start_shooting">Start shooting</string>
+    <string name="select_timer">Select timer</string>
+    <string name="privacy_and_settings">Privacy and Settings</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="request_for_blue_tick">Request for Blue Tick</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="logout">Logout</string>
+    <string name="message">Message</string>
+    <string name="app_setting">App Setting</string>
+    <string name="save_and_share_video">Save and Share Video</string>
+    <string name="share_app">Share App</string>
+    <string name="leave_a_comment">Leave a comment...</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="chat_history">Chat History</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="setting">Setting</string>
+    <string name="home">Home</string>
+    <string name="discover">Discover</string>
+    <string name="my_videos">My Videos</string>
+    <string name="my_likes">My Likes</string>
+    <string name="settings">Setting</string>
+    <string name="tap_to_create_n_your_first_short_video">Tap + to create\n your first short video</string>
+    <string name="language">Language</string>
+    <string name="share_video">Share Video</string>
+    <string name="title_activity_trending">TrendingActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">VideoLibrary</string>
+
+    <string-array name="video_speed_texts">
+        <item>slow</item>
+        <item>standard</item>
+        <item>fast</item>
+    </string-array>
+
+    <string name="video_crop_next">Next step</string>
+    <string name="video_crop_time_15">15 seconds</string>
+    <string name="video_crop_time_120">2 minutes</string>
+    <string name="video_crop_selected_time">Selected%1$d秒</string>
+    <string name="video_crop_selected_error">There is an error in parsing the data, the video is not supported temporarily</string>
+    <string name="video_crop_progress_tips">Processing...</string>
+
+    <!-- 编辑页面 -->
+    <string name="video_edit_back_press">Returning to the previous step will lose the current effect, whether to return</string>
+    <string name="video_edit_select_music">Optional music</string>
+    <string name="video_edit_voice">sound</string>
+    <string name="video_edit_cut_music">Cut music</string>
+    <string name="video_edit_effect">Special effects</string>
+    <string name="video_edit_text">Text</string>
+    <string name="video_edit_filter">Filter</string>
+    <string name="video_edit_stickers">Stickers</string>
+    <string name="video_edit_next">Next step</string>
+    <string name="video_edit_cancel">cancel</string>
+    <string name="video_edit_save">save</string>
+    <!-- 声音控制 -->
+    <string name="video_voice_save">save</string>
+    <string name="video_voice_source">Original sound</string>
+    <string name="video_voice_background">Soundtrack</string>
+    <string name="video_cut_music_title">Drag the sound spectrum left and right to cut the music</string>
+
+    <!-- 特效提示 -->
+    <string name="video_edit_effect_hint">After selecting the location, press and hold to use the effect</string>
+    <string name="video_edit_effect_cancel">Revoke</string>
+    <string name="video_edit_effect_category_filter">Filter effects</string>
+    <string name="video_edit_effect_category_time">Time effects</string>
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_music_select"
+    android:orientation="vertical"
+    android:background="@drawable/bg_music_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rltchoose"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="@dimen/dp30"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_close"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Sound"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_centerInParent="true"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/rltchoose"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgBack"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        android:id="@+id/search_layout"
+        app:cardBackgroundColor="@color/dark_gray_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingStart="10dp">
+
+            <ImageButton
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/search"
+                android:padding="4dp"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true"
+                android:background="@color/transparent"
+                android:tint="@color/dimgray"
+                android:src="@drawable/ic_discovery_gray"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter the Song Name"
+                android:padding="7dp"
+                android:textSize="14dp"
+                android:id="@+id/search_edit"
+                android:focusable="false"
+                android:cursorVisible="false"
+                android:textCursorDrawable="@drawable/cusrsor_color"
+                android:textColorHint="@color/darkgray"
+                android:textColor="@color/white"
+                android:layout_toEndOf="@+id/search"
+                android:backgroundTint="@color/transparent"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:id="@+id/search_btn"
+                android:textSize="16dp"
+                android:visibility="gone"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorAccent"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/lnr_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtserver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From Sever"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/txtlocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From Local"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/music_list"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <RelativeLayout
+        android:id="@+id/rlt_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/groups_tab"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-1dp"
+            android:layout_weight="1"
+            android:background="@drawable/d_bottom_gray_line"
+            android:visibility="gone"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/black"
+            app:tabMode="fixed"
+            app:tabPaddingEnd="0dp"
+            app:tabPaddingStart="0dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            app:tabTextColor="@color/gray" />
+
+        <com.cgfay.uitls.adapter.Custom_ViewPager_utils
+            android:id="@+id/custompager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/groups_tab"
+            android:visibility="gone"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"></com.cgfay.uitls.adapter.Custom_ViewPager_utils>
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_below="@+id/search_layout"
+        android:id="@+id/frame_contener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/frglutsoundsearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

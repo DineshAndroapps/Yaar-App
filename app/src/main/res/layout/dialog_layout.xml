@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="@string/select_language"
+        android:textColor="@color/black"
+        android:padding="7dp"
+        android:drawableRight="@drawable/ic_baseline_language_24"
+        android:gravity="center"
+        android:drawablePadding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:padding="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+    </RadioGroup>
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_gravity="right"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/cancel"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
